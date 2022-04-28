@@ -1,0 +1,15 @@
+@import "./normolize";
+@import "./vars";
+
+a {
+    color: $linkColor;
+    font-size: 1rem;
+
+    &hover {
+        color: green;
+    }
+
+    span {
+        border-bottom: 1px solid $linkColor;
+    }
+}

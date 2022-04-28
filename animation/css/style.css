@@ -1,0 +1,24 @@
+.block {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    top: 0;
+    animation-name: moveForward;
+    animation-duration: 10s;
+}
+
+@keyframes moveForward {
+    0% {
+        left: 0;
+    }
+    25% {
+        top: 100px;
+    }
+    75% {
+        top: 0;
+    }
+    100% {
+        left: 92%;
+    }
+}
